@@ -34,8 +34,7 @@ the following exercises are done within an interactive session with the
 singularity and snakemake modules loaded:
 
 ```console
-#loginnode$ srun  --cpus-per-task=12 --pty bash
-loginnode$ salloc
+loginnode$ srun  --cpus-per-task=12 --pty bash
 
 ...
 user@cn1234> module load singularity snakemake
